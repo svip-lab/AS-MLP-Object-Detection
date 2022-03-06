@@ -9,21 +9,21 @@ This repo contains the supported code and configuration files to reproduce objec
 
 | Backbone | Pretrain | Lr Schd | box mAP | mask mAP | Params | FLOPs | config | model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| AS-MLP-T | ImageNet-1K | 1x | 44.0 | 40.0 | 48M | 260G | [config](configs/asmlp/mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_adamw_1x_coco.py) |  |
-| AS-MLP-T | ImageNet-1K | 3x | 46.0 | 41.5 | 48M | 260G | [config](configs/asmlp/mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco.py) |  |
-| AS-MLP-S | ImageNet-1K | 1x | 46.7 | 42.0 | 69M | 346G | [config](configs/asmlp/mask_rcnn_asmlp_small_patch4_window7_mstrain_480-800_adamw_1x_coco.py) |  |
-| AS-MLP-S | ImageNet-1K | 3x | 47.8 | 42.9 | 69M | 346G | [config](configs/asmlp/mask_rcnn_asmlp_small_patch4_window7_mstrain_480-800_adamw_3x_coco.py) |  |
+| AS-MLP-T | ImageNet-1K | 1x | 44.0 | 40.0 | 48M | 260G | [config](configs/asmlp/mask_rcnn_asmlp_tiny_patch4_shift5_mstrain_480-800_adamw_1x_coco.py) | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/EXh5rSXMKcNMlNNEnI7phmYBmw7aZ0PSDhFO-ZmHZ_Rr8A?e=JGwoTA)  |
+| AS-MLP-T | ImageNet-1K | 3x | 46.0 | 41.5 | 48M | 260G | [config](configs/asmlp/mask_rcnn_asmlp_tiny_patch4_shift5_mstrain_480-800_adamw_3x_coco.py) |  |
+| AS-MLP-S | ImageNet-1K | 1x | 46.7 | 42.0 | 69M | 346G | [config](configs/asmlp/mask_rcnn_asmlp_small_patch4_shift5_mstrain_480-800_adamw_1x_coco.py) |  |
+| AS-MLP-S | ImageNet-1K | 3x | 47.8 | 42.9 | 69M | 346G | [config](configs/asmlp/mask_rcnn_asmlp_small_patch4_shift5_mstrain_480-800_adamw_3x_coco.py) |  |
 
 ### Cascade Mask R-CNN
 
 | Backbone | Pretrain | Lr Schd | box mAP | mask mAP | Params | FLOPs | config  | model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| AS-MLP-T | ImageNet-1K | 1x | 48.4 | 42.0 | 86M | 739G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
-| AS-MLP-T | ImageNet-1K | 3x | 50.1 | 43.5 | 86M | 739G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) | |
-| AS-MLP-S | ImageNet-1K | 1x | 50.5 | 43.7 | 107M | 824G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
-| AS-MLP-S | ImageNet-1K | 3x | 51.1 | 44.2 | 107M | 824G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) |  |
-| AS-MLP-B | ImageNet-1K | 1x | 51.1 | 44.2 | 145M | 961G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
-| AS-MLP-B | ImageNet-1K | 3x | 51.5 | 44.7 | 145M | 961G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) |  |
+| AS-MLP-T | ImageNet-1K | 1x | 48.4 | 42.0 | 86M | 739G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_tiny_patch4_shift5_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) | [onedrive](https://shanghaitecheducn-my.sharepoint.com/:u:/g/personal/liandz_shanghaitech_edu_cn/ERBgXv6TN2BMmRXDSQqkWwUBHJUQZiCwIhxl-1cZKd0iWg?e=ddwlrG) |
+| AS-MLP-T | ImageNet-1K | 3x | 50.1 | 43.5 | 86M | 739G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_tiny_patch4_shift5_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) | |
+| AS-MLP-S | ImageNet-1K | 1x | 50.5 | 43.7 | 107M | 824G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_small_patch4_shift5_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
+| AS-MLP-S | ImageNet-1K | 3x | 51.1 | 44.2 | 107M | 824G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_small_patch4_shift5_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) |  |
+| AS-MLP-B | ImageNet-1K | 1x | 51.1 | 44.2 | 145M | 961G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_base_patch4_shift5_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
+| AS-MLP-B | ImageNet-1K | 3x | 51.5 | 44.7 | 145M | 961G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_base_patch4_shift5_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) |  |
 
 
 **Notes**: 
@@ -58,7 +58,7 @@ tools/dist_train.sh <CONFIG_FILE> <GPU_NUM> --cfg-options model.pretrained=<PRET
 ```
 For example, to train a Mask R-CNN model with a `AS-MLP-T` backbone and 8 gpus, run:
 ```
-tools/dist_train.sh configs/asmlp/mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco.py 8 --cfg-options model.pretrained=<PRETRAIN_MODEL> 
+tools/dist_train.sh configs/asmlp/mask_rcnn_asmlp_tiny_patch4_shift5_mstrain_480-800_adamw_3x_coco.py 8 --cfg-options model.pretrained=<PRETRAIN_MODEL> 
 ```
 
 **Note:** `use_checkpoint` is used to save GPU memory. Please refer to [this page](https://pytorch.org/docs/stable/checkpoint.html) for more details.
@@ -85,6 +85,4 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 ## Other Links
 
 > **Image Classification**: See [AS-MLP for Image Classification](https://github.com/svip-lab/AS-MLP).
-
-
 
