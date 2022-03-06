@@ -7,8 +7,8 @@ This repo contains the supported code and configuration files to reproduce objec
 
 ### Mask R-CNN
 
-| Backbone | Pretrain | Lr Schd | box mAP | mask mAP | #params | FLOPs | config | model |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
+| Backbone | Pretrain | Lr Schd | box mAP | mask mAP | Params | FLOPs | config | model |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
 | AS-MLP-T | ImageNet-1K | 1x | 44.0 | 40.0 | 48M | 260G | [config](configs/asmlp/mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_adamw_1x_coco.py) |  |
 | AS-MLP-T | ImageNet-1K | 3x | 46.0 | 41.5 | 48M | 260G | [config](configs/asmlp/mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_adamw_3x_coco.py) |  |
 | AS-MLP-S | ImageNet-1K | 1x | 46.7 | 42.0 | 69M | 346G | [config](configs/asmlp/mask_rcnn_asmlp_small_patch4_window7_mstrain_480-800_adamw_1x_coco.py) |  |
@@ -16,8 +16,8 @@ This repo contains the supported code and configuration files to reproduce objec
 
 ### Cascade Mask R-CNN
 
-| Backbone | Pretrain | Lr Schd | box mAP | mask mAP | #params | FLOPs | config  | model |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
+| Backbone | Pretrain | Lr Schd | box mAP | mask mAP | Params | FLOPs | config  | model |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
 | AS-MLP-T | ImageNet-1K | 1x | 48.4 | 42.0 | 86M | 739G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
 | AS-MLP-T | ImageNet-1K | 3x | 50.1 | 43.5 | 86M | 739G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_tiny_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.py) | |
 | AS-MLP-S | ImageNet-1K | 1x | 50.5 | 43.7 | 107M | 824G | [config](configs/asmlp/cascade_mask_rcnn_asmlp_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_1x_coco.py) |  |
